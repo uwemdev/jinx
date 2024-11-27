@@ -15,11 +15,11 @@ Displays the current SOL price and RSI value in the terminal.
 
 ## Setup Instructions
 
-1. Clone the Repository:
+Clone the Repository:
 ```bash
 git clone https://github.com/YOUR_USERNAME/solana-price-tracker.git
-cd solana-price-tracker ```
-
-
+cd solana-price-tracker
+pip install ccxt requests beautifulsoup4 numpy
+python tracker.py
 
 
